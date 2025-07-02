@@ -15,8 +15,6 @@ function playGame () {
     }
 
 
-
-
     function playRound (humanChoice, computerChoice) {
         humanChoice = humanChoice.toLowerCase(); 
 
@@ -55,6 +53,5 @@ for(let i = 0; i < 5; i++) {
     playRound(humanSelection, computerSelection);
     console.log(`Score -> Human: ${humanScore} | Computer: ${computerScore}`);
 }
-
 }
-
+playGame();
