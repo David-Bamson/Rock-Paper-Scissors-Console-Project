@@ -1,1 +1,19 @@
 The Odin Project Rock Paper Scissor Exercise;
+This Project consists of 4 functions 
+playGame();
+getComputerChoice ();
+getHumanChoice ();
+function playRound (humanChoice, computerChoice);
+
+The play game function can be said to be the parent function
+
+MISTAKES I MADE 
+1. For the scores i set them as constants instead of just simple variables
+  and by this i mean "const humanScore = 0;" instead of "let humanscore = 0;"
+2. I found it difficult to use the math.random function in setting the computer choice ultimately had to AI it but now i know.
+3. Also found it difficult to interprete what they meant by making it case-insensitive for some reason but i found my way around it.
+4. At a point i didn't even know where to start with the conditions but i found my way around that too.
+5. Then came the loop to make sure the game went for 5 rounds, silly me forgot to declare the 'i' correctly , i wrote "for (i = 0; i <=5; i++)", instead of 
+    "for (let i = 0; i <5; i++)" The first one would have ran the code 1 extra time after running 5 times.
+  All in all i had a few ups and downs in this project, also learnt a few things few things from it, moving at my own pace nobody is rushing me andi am not rushing myself
+  PEACE2.
